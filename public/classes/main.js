@@ -1,3 +1,6 @@
-let app = new PIXI.Application({width: 256, height: 256});
+window.onload = function() {
+    let app = new PIXI.Application({width: 800, height: 600});
 
-document.body.appendChild(app.view);
+    let container = document.getElementById("container");
+    container.appendChild(app.view)
+}
